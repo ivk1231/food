@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+      @font-face {
+        font-family: 'Times New Roman', Times, serif;
+        src: url(./fonts/EdwardianScriptITC.woff);
+      }
+
+      @media (max-width: 800px)
+      {
+        .card-body {
+          text-align: center;
+        }
+
+        .img-thumbnail.rounded.mx-auto.d-block {
+          width: 30vw;
+        }
+      }
+
+      .navbar-nav.mr-auto li a {
+          color: pink;
+      }
+
+      .card {
+        transition: transform .4s;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+        background-color: rgb(187, 97, 97);
+      }
+      
+      .navbar.navbar-expand-md {
+        border-radius: 0px 0px 3px 3px;
+      }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top shadow p-3 mb-3" style="background-color:rgb(236, 154, 59)">
+        <a class="navbar-brand p-0" href="#" style="color:rgb(236, 186, 76)">
+          <img src="https://symbolikon.com/wp-content/uploads/edd/2019/09/astrology-aries-bold-400w.png" alt="Logo" width="75">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_new" href="https://github.com/ivk1231/food/upload">GitHub Repo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+
+    <!-- Main Heading -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4" style="font-family: Georgia">Food.com</h1>
+        <p class="lead">Quality food made Easy</p>
+      </div>
+    </div>
+
+    <!-- Menu -->
+
+    <!-- Food Item 1 -->
+    <div class="card">
+      <div class="row no-gutters p-3">
+        <div class="col-md-2">
+          <a href="https://www.365daysofbakingandmore.com/day-27-lasagna/" target="_new">
+            <img src="https://www.365daysofbakingandmore.com/wp-content/uploads/2011/02/Lasagna-FEATURE.jpg" class="img-thumbnail rounded mx-auto d-block"  alt="Image of Walnut and Lentil Bolognese from https://theplantriot.com/lentil-bolognese/">
+          </a>
+        </div>
+        <div class="col-md-9">
+          <div class="card-body">
+            <h5 class="card-title">Lasagna</h5>
+            <p class="card-text">Classial italian lasagna</p>
+            <p class="card-text"><small class="text-muted">₹350.00</small></p>
+            <a href="https://www.365daysofbakingandmore.com/day-27-lasagna/" target="_new" class="btn btn-info" style="background-color: #5A617E; border: none;">View Item</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <!-- Food Item 2 -->
+    <div class="card">
+        <div class="row no-gutters p-3">
+          <div class="col-md-2">
+            <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-tiramisu-8613900">
+              <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/01/0/FNK_Tiramisu_s4x3.jpg.rend.hgtvcom.826.620.suffix/1585756496845.jpeg" target="_new" class="img-thumbnail rounded mx-auto d-block" alt="Image of Vegetable Soup from https://thecozyapron.com/vegetable-soup/">"
+            </a>
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Tiramisu</h5>
+              <p class="card-text">Made with the finest cheese and coffe to give your taste buds the Experience of a lifetime.</p>
+              <p class="card-text"><small class="text-muted">₹450.00</small></p>
+              <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-tiramisu-8613900" target="_new" class="btn btn-info" style="background-color: #5A617E; border: none;">View Item</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Food Item 3 -->
+    <div class="card">
+        <div class="row no-gutters p-3">
+          <div class="col-md-2">
+            <a href="https://rosannapansino.com/blogs/recipes/pokemon-ice-cream-cones">
+              <img src="https://cdn.shopify.com/s/files/1/0163/5948/9636/files/pokemon-icecream-cones-1.jpg" target="_new" class="img-thumbnail rounded mx-auto d-block" alt="Image of Shaved Brussels Sprout Salad with Creamy Maple Dressing from https://www.yayforfood.com/recipes/shaved-brussels-sprouts-apple-pomegranate-salad-with-lemon-balsamic-vinaigrette/">
+            </a>
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Ice cream</h5>
+              <p class="card-text">Cold and sweet treats for your loved ones.</p>
+              <p class="card-text"><small class="text-muted">₹100.00</small></p>
+              <a href="https://rosannapansino.com/blogs/recipes/pokemon-ice-cream-cones" target="_new" class="btn btn-info" style="background-color: #5A617E; border: none;">View Item</a>
+            </div>
+          </div>  
+        </div>
+    </div>
+
+   
+
+   
+   
+
+   
+
+    <!-- Footer -->
+    <hr style="width: 75%">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>
